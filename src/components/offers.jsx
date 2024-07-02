@@ -62,6 +62,18 @@ const Offers = () => {
             </div>
           </div>
         </a>
+
+        <div className="mb-[120px] max-w-[595px] mx-auto">
+          <h1 className="text-[30px] lg:text-[43px]  mb-[28px] leading-[32px] sm:leading-normal md:leading-[54.27px] ">
+            Sign Up and Start Enjoying our Bonuses and Benefits
+          </h1>
+          <a
+            className="border border-transparent  bg-[#ED3237] px-[1rem] py-2 lg:px-[3rem] lg:py-4 text-white text-[18px]"
+            href={`https://hallabet.com/signup/?click_id=${clickId}&utm_campaign=${utmCampaign}`}
+          >
+            Sign Up
+          </a>
+        </div>
         {/* item 3 */}
 
         <a
