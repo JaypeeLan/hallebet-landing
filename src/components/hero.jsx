@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import bg1 from "../files/bg1.png";
 import bg2 from "../files/bg3.png";
@@ -11,7 +12,7 @@ const links = ["SPORT", "TODAY’S BET", "LIVE", "T & C"];
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const [fade, setFade] = useState(true);
+  const [setFade] = useState(true);
   const urlParams = new URLSearchParams(window.location.search);
   const utmCampaign = urlParams.get("utm_campaign");
   const clickId = urlParams.get("click_id");
